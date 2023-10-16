@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Blue Planet</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav>
+            <figure>
+                <a href="index.html"><img id="logo" src="img/Logo.png" alt="Logo principal"></a>
+            </figure>
+            <div id="nav-btn">
+                <a class="button-nav" href="login.html">Já possuo conta</a>
+            </div> 
+        </nav>
+        <main id="cad">
+            <form>
+                <label for="full_name">Nome Completo:</label><br>
+                <input type="text" id="full_name" name="full_name" class="txt" required><br>
+                
+                <label for="idade">Idade:</label><br>
+                <input type="number" id="idade" name="idade" min="18" max="120" required><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" class="txt" required placeholder="insira um e-mail válido"><br>
+
+                <label for="rdSex">Sexo: </label><br>
+                <input id="rdSexMasc" type="radio" name="sexo" value="Masc">
+                <label class="label-sex">Masculino</label>
+                <input id="rdSexFem" type="radio" name="sexo" value="Fem">
+                <label class="label-sex">Feminino</label><br>
+
+                <label for="pwd">Senha:</label><br>
+                <input type="password" id="pwd" name="pwd" class="txt" required><br>
+
+                <label for="rep_pwd">Repetir Senha:</label><br>
+                <input type="password" id="rep_pwd" name="rep_pwd" class="txt" required><br>
+            </form>
+
+            <a id="botao" href="index.html">Efetuar Cadastro</a>
+        </main>
+        <footer id="rdp-form">
+            <span id="rdp-cntt">Para mais informações, contate:</span>
+            <a id="rdp-email" href="mailto:luizaraujo@alunos.utfpr.edu.br">luizaraujo@alunos.utfpr.edu.br</a>
+        </footer>
+    </body>
+</html>
